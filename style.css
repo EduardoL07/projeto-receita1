@@ -26,6 +26,7 @@ body {
 
 .conteudo {
     max-width: 990px;
+    min-width: 330px;
     margin: auto;
     padding: 40px;
     margin-top: 70px;
@@ -45,7 +46,7 @@ h2 {
 }
 
 .cartao {
-    padding: 70px 100px;
+    padding: 90px 100px;
     margin-top: 50px;
     border-radius: 20px;
 }
@@ -69,7 +70,8 @@ a {
 
 .botao-comprar {
     background-color: #ff6b28;
-    padding: 16px;
+    min-width: 330px;
+    padding: 12px;
     border-radius: 20px;
     color: white;
 }
@@ -83,7 +85,9 @@ li {
 }
 
 .lista-ingredientes {
+    max-width: 550px;
     margin-bottom: 65px;
+    width: 100px;
 }
 
 .rodape {
