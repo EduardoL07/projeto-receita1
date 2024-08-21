@@ -46,6 +46,8 @@ h2 {
 }
 
 .cartao {
+    max-width: 550px;
+    min-width: 330px;
     padding: 90px 100px;
     margin-top: 50px;
     border-radius: 20px;
@@ -86,9 +88,9 @@ li {
 
 .lista-ingredientes {
     max-width: 550px;
+    min-width: 330px;
     margin-bottom: 65px;
     width: 300px;
-    gap: 95px;
 }
 
 .rodape {
@@ -119,9 +121,4 @@ p, li {
 
 .text-white:hover {
     color: #333;
-}
-
-ul {
-    columns: 2;
-    margin: 40px;
 }
