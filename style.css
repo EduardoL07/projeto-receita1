@@ -119,3 +119,7 @@ p, li {
 .text-white:hover {
     color: #333;
 }
+
+ul {
+    columns: 2;
+}
