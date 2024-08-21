@@ -87,7 +87,8 @@ li {
 .lista-ingredientes {
     max-width: 550px;
     margin-bottom: 65px;
-    width: 100px;
+    width: 300px;
+    gap: 95px;
 }
 
 .rodape {
@@ -122,4 +123,5 @@ p, li {
 
 ul {
     columns: 2;
+    margin: 40px;
 }
